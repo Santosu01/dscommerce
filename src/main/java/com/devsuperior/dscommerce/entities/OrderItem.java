@@ -21,7 +21,7 @@ public class OrderItem {
         this.price = price;
     }
 
-    public Order getOder() {
+    public Order getOrder() {
         return id.getOrder();
     }
 
