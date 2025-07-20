@@ -93,6 +93,10 @@ public class User implements UserDetails {
         return password;
     }
 
+    public Set<Role> getRoles() {
+        return roles;
+    }
+
     @Override
     public String getUsername() {
         return email;
