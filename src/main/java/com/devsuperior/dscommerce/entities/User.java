@@ -95,7 +95,7 @@ public class User implements UserDetails {
 
     @Override
     public String getUsername() {
-        return "";
+        return email;
     }
 
     @Override
@@ -161,6 +161,8 @@ public class User implements UserDetails {
                 ", phone='" + phone + '\'' +
                 ", birthDate=" + birthDate +
                 ", password='" + password + '\'' +
+                ", roles=" + roles +
+                ", orders=" + orders +
                 '}';
     }
 }
